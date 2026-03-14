@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato.html</title>
+</head>
+<body>
+    <h1 id="topo">Formulário html</h1>
+    <form action="sucesso.html">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+                <label for="nome">Digite seu nome</label>
+                <input type="text" id="nome" name="nome"><br><br>
+
+                <label for="email">Digite seu email</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="telefone">Digite seu telefone</label>
+                <input type="number" id="telefone" name="telefone"><br><br>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Sua Mensagem</legend>
+                <label for="assunto">Assunto da mensagem:<br><br>
+                <textarea id="assunto" name="assunto" rows="2" cols="45"></textarea><br><br>
+                
+                <label for="mensagem">Digite Sua Mensagem:</label><br><br>
+                <textarea id="mensagem" name="mensagem" rows="2" cols="45"></textarea><br><br>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Pesquisa Pessoal</legend>
+                <label for="capital">Escolha uma capital
+                    <select id="capital" name="capital">
+                        <option value="bh">Belo Horizonte-MG</option>
+                        <option value="salvador">Salvador-BA</option>
+                        <option value="rj">Rio de Janeiro-RJ</option>
+                        <option value="sp">São Paulo-SP</option>
+                        <option value="fortaleza">Fortaleza-CE</option>
+                    </select><br><br>
+
+                    <label for="data">Data de Nascimento</label>
+                    <input type="date" id="data" name="data"><br><br>
+
+                    <p>Selecione seu gênero</p>
+                        <input type="radio" name="genero" value="masculino">Masculino<br>
+                        <input type="radio" name="genero" value="feminino">Feminino<br>
+                        <input type="radio" name="genero" value="outro">Outro<br><br>
+
+                    <p>Escolha seu esporte favorito</p>
+                        <input type="checkbox" name="esporte" value="futebol">Futebol<br>
+                        <input type="checkbox" name="esporte" value="volei">Vôlei<br>
+                        <input type="checkbox" name="esporte" value="basquete">Basquete<br>
+                        <input type="checkbox" name="esporte" value="f1">Fórmula 1<br>
+        </fieldset><br><br>
+        
+            <input type="reset" value="Limpar">Limpar Formulário<br><br>
+            <input type="submit" value="Enviar">Enviar Formulário<br><br>
+            <a href="index.html">Voltar a página inicial</a>
+
+    </form>
+        
+</body>
+</html>
